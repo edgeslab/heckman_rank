@@ -1,0 +1,11 @@
+*.DS_Store
+*.zip
+*.JPG
+*.jpg
+*.csv
+*.o
+*.txt
+*.pyc
+*.ipynb_checkpoints
+*.vscode
+*.png
