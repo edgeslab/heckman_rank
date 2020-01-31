@@ -8,6 +8,8 @@ from sys import platform
 
 if platform == "darwin":    
     matplotlib.use('TkAgg')
+else:
+    matplotlib.use('Agg')
 
 import matplotlib.pyplot as plt
 
