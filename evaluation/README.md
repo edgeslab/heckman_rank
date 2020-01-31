@@ -79,3 +79,20 @@ sh run.sh 1.5 15 29
 ```
 
 **Note: For integer eta values, DO NOT pass decimal format arguments (1.0, 2.0 etc).
+
+### Results
+
+After the _run.sh_ executes succesfully, the results will be stored in **results** directory. and corresponding plots will be generated in **plots** directory. For example if you run the following command ```sh run.sh 1 15 29``` you should expect to see the following files: 
+
+```
+results/
+│   15pass_eta1_combined_arrr.csv
+|   15pass_eta1_combined_ndcg_10.csv
+plots/
+│   15pass_eta1_combined_arrr.eps
+|   15pass_eta1_combined_ndcg_10.eps
+```
+
+Here is an example plot from the paper:
+
+![Sample plot from paper](sample_plot.jpg)
