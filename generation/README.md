@@ -1,4 +1,4 @@
-The svm.py generates semisynthetic data, when base ranker is naive-svm. To run this code, use python2, along with the follwing arguments
+The svm.py generates semi-synthetic data, when base ranker is naive-svm. To run this code, use python2, along with the follwing arguments
 
 argument 1: 99% of train data in set1 of Yahoo! learning-to-rank dataset
 argument 2: prediction file that contains base ranker scores for 99% of train data
